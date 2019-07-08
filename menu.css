@@ -1,0 +1,248 @@
+@font-face{
+ font-family: 'Karla', sans-serif;;
+}
+
+@font-face{
+    font-family: 'Mission Gothic';
+}
+
+@font-face{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+html, body, div, span,a,ul,li,footer,header,nav,section,video{
+    margin:0;
+    padding: 0;
+    border: 0;
+    font-size: 100%
+    vertical-align: baseline;
+}
+
+footer, header, menu, nav, section{
+    display: block;
+}
+
+/*---Start Navigation--*/
+body{
+    font-size: 100%;
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 1680px) {
+
+			body {
+				font-size: 1.5em;
+			}
+
+		}
+@media screen and (max-width: 280px) {
+
+			body br{
+				display: none;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			body {
+				font-size: 1.2em;
+			}
+
+		}
+
+		@media screen and (max-width: 360px) {
+
+			body {
+				font-size: 0.4em;
+			}
+
+		}
+
+/* side bar */
+
+ul{
+    list-style: none;
+    list-style-type: none;
+}
+
+.logo{
+    display: block;
+    align-content: center;
+    width: auto;
+    height: 50px;
+    margin-top: 7%;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 10%;
+}
+
+.logo a:hover{
+    
+}
+
+.navigator{
+    font-family: 'Mission Gothic';
+    list-style-type: none;
+    margin: 0;
+    margin-top: 100%;
+    padding: 0;
+    color: #000000;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 3px;
+    line-height: 2em;
+}
+
+@media screen and (max-width: 1680px) {
+
+			.navigator {
+				font-size: 1em;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			.navigator {
+				font-size: 0.7em;
+			}
+
+		}
+
+		@media screen and (max-width: 360px) {
+
+			.navigator {
+				font-size: 0.6em;
+			}
+
+		}
+
+.navigator a:hover{
+    color: aqua;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+<!---------------body--------------------->
+
+.songsong {
+    display: inline;
+}
+
+.sectioncontent{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin:0;
+}
+
+.textbox{
+    margin-left: 50px;
+}
+
+.images {
+    display: inline-block;
+    width: 70%;
+}
+
+.images img{
+    position: relative;
+    margin-top: 0;
+    overflow: scroll;
+}
+
+@media screen and (max-width: 1680px) {
+
+			.images img {
+				max-width: 80%;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			.images img {
+				max-width: 100%;
+			}
+
+		}
+
+		@media screen and (max-width: 360px) {
+
+			.images img {
+				max-width: 60%;
+			}
+
+		}
+
+p{
+    display: inline-flex;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    max-width: 50%;
+    line-height: 2em;
+}
+
+@media screen and (max-width: 1680px) {
+
+			p {
+				max-width: 60%;
+                line-height: 2em;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			p {
+				max-width: 70%;
+                line-height: 1.7em;
+			}
+
+		}
+
+		@media screen and (max-width: 360px) {
+
+			p {
+				max-width: 70%;
+                line-height: 1.7em;
+			}
+
+		}
+
+.textbox h1{
+    display:block;
+    font-size: 2.5em;
+    font-weight: 400;
+    margin-top: 30px;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+}
+
+.textbox h2{
+    display:block;
+    font-size: 1em;
+    font-weight: 100;
+    color: #898989;
+    text-align: center;
+    
+}
+
+h3{
+     display:block;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+}
+
+

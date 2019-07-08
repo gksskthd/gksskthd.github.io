@@ -6,8 +6,58 @@
     font-family: 'Mission Gothic';
 }
 
+html, body, div, span,a,ul,li,footer,header,nav,section,video{
+    margin:0;
+    padding: 0;
+    border: 0;
+    font-size: 100%
+    vertical-align: baseline;
+}
+
+footer, header, menu, nav, section{
+    display: block;
+}
+
 body{
-font-size: 100%;
+}
+
+@media screen and (min-width: 1680px) {
+
+			body {
+				font-size: 1.5em;
+			}
+
+		}
+@media screen and (max-width: 700px) {
+
+			body {
+				font-size: 0.5em;
+			}
+
+		}
+
+@media only screen and (min-width:1280px) and (max-width: 1680px)
+{
+			body {
+				font-size: 1.0em;
+			}
+
+		}
+
+@media only screen and (min-width:700px) and (max-width: 1280px) {
+
+			body {
+				font-size: 0.7em;
+			}
+
+		}
+
+/* side bar */
+
+
+ul{
+    list-style: none;
+    list-style-type: none
 }
 
 .logo{
@@ -17,7 +67,7 @@ font-size: 100%;
     width: auto;
     height: 50px;
     margin-top: 7%;
-     margin-left: 5%;
+    margin-left: 5%;
     margin-right: auto;
     width: 10%;
 }
@@ -27,15 +77,13 @@ font-size: 100%;
 }
 
 .navigator{
-    display: inline-block;
     font-family: 'Mission Gothic';
     list-style-type: none;
-    margin: 10px;
+    margin: 0;
     margin-top: 100%;
-    padding: 20px;
-    float:left;
+    padding: 0;
     color: #000000;
-    font-size: 20px;
+    font-size: 1.5em;
     text-align: center;
     text-decoration: none;
     letter-spacing: 3px;
@@ -45,6 +93,8 @@ font-size: 100%;
 .navigator a:hover{
     color: aqua;
 }
+
+
 
 a{
     color: #000000;
@@ -68,19 +118,89 @@ a{
 }
 
 .work{
+    display: flex;
     margin-top: 350px;
-    width: 40%;
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 0.7em;
+    line-height: 1.2em;
 }
 
-.work a:hover{
-    color: aqua;
-}
+@media screen and (min-width: 1680px) {
+
+			.work {
+				font-size: 100%;
+                margin-top: 100%;
+			}
+
+		}
+@media screen and (max-width: 700px) {
+
+			.work {
+				font-size: 60%;
+                margin-top: 30%;
+			}
+
+		}
+
+@media only screen and (min-width:1280px) and (max-width: 1680px)
+{
+			.work {
+				font-size: 70%;
+                margin-top: 50%;
+			}
+
+		}
+
+@media only screen and (min-width:700px) and (max-width: 1280px) {
+
+			.work {
+				font-size: 65%;
+                margin-top: 40%;
+			}
+
+		}
+
 
 .list{
-    display: inline-block;
+    flex:30px;
     text-align: left;
-    margin-left: 35%;
-    font-size:2em;
-    font-weight: 200;
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+span {
+    display: block;
+        margin-top: 0;
+        line-height: 0.7em;
+        font-weight: 200;
+    font-size: 0.7em;
+         &::before {
+      content: "\A";
+    }
+        
+    }
+
+.list a:hover{
+    color:aquamarine;
+}
+
+p{
+    color: #898989;
+    display: inline-block;
+    font-size: 0.4em;
+    font-weight: 100;
+    text-align: left;
+    padding: 15px;
+}
+
+#footer{
+    display: inline;
+    font-family: 'Mission Gothic', sans-serif;
+    font-size: 2em;
+    padding: 100px;
+}
+
+.smile{
+   width: 0.8em;
 }

@@ -109,7 +109,7 @@ a{
     margin: 0;
 }
 
-.gallery video{
+.gallery iframe{
     max-width: 310px;
 }
 

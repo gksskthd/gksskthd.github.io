@@ -169,7 +169,7 @@ a{
 		@media screen and (max-width: 1280px) {
 
 			.images img {
-				max-width: 100%;
+				max-width: 80%;
 			}
 
 		}
@@ -185,7 +185,7 @@ a{
 p{
     display: inline-flex;
     font-family: 'Work Sans', sans-serif;
-    font-size: 1em;
+    font-size: 0.8em;
     text-align: center;
     max-width: 50%;
     line-height: 2em;
@@ -194,8 +194,8 @@ p{
 @media screen and (max-width: 1680px) {
 
 			p {
-				max-width: 60%;
-                line-height: 2em;
+				max-width: 55%;
+                line-height: 1.6em;
 			}
 
 		}
@@ -203,8 +203,8 @@ p{
 		@media screen and (max-width: 1280px) {
 
 			p {
-				max-width: 70%;
-                line-height: 1.7em;
+				max-width: 60%;
+                line-height: 1.4em;
 			}
 
 		}
@@ -212,8 +212,8 @@ p{
 		@media screen and (max-width: 360px) {
 
 			p {
-				max-width: 70%;
-                line-height: 1.7em;
+				max-width: 60%;
+                line-height: 1.3em;
 			}
 
 		}

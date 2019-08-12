@@ -76,6 +76,10 @@ ul{
     
 }
 
+.intro a:hover{
+	color:aqua;
+}
+
 .navigator{
     font-family: 'Mission Gothic';
     list-style-type: none;
@@ -93,7 +97,6 @@ ul{
 .navigator a:hover{
     color: aqua;
 }
-
 
 
 a{

@@ -116,7 +116,7 @@ ul{
 		@media screen and (max-width: 360px) {
 
 			.navigator {
-				font-size: 0.6em;
+				font-size: 0.4em;
 			}
 
 		}
@@ -177,7 +177,7 @@ a{
 		@media screen and (max-width: 360px) {
 
 			.images img {
-				max-width: 60%;
+				max-width: 80%;
 			}
 
 		}
